@@ -10,6 +10,10 @@ app.post('/users', (req, res) => {
     res.send('Hello World!')
   })
 
-  app.get('/users/:id', (req, res) => {
+app.get('/users/:id', (req, res) => {
+    res.send('Hello World!')
+  })
+
+app.delete('/users/:id', (req, res) => {
     res.send('Hello World!')
   })
